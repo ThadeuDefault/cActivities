@@ -11,17 +11,15 @@ int main(){
     int i = n;
 
     for(i; i > 1; i--){
+
         printf("%d\n", i);
         printf("*\n");
-     fat = fat * i;
+
+        fat = fat * i;
 
     }
 
         printf("1\n");
         printf("\nFatorial de %d e igual a: %d", n, fat );
-
-
-
-
 
 }
